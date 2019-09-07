@@ -18,6 +18,7 @@
  * BROWSER POLYFILLS
  */
 
+import '@angular/localize';
 import 'core-js/modules/es.object.entries';
 import 'hammerjs';
 import 'zone.js/dist/zone';
