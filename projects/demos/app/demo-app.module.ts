@@ -396,6 +396,16 @@ import { ClipboardModule } from 'ngx-clipboard';
           }
         },
         {
+          path: 'responsive-week-view',
+          loadChildren: () =>
+            import('./demo-modules/responsive-week-view/module').then(
+              m => m.DemoModule
+            ),
+          data: {
+            label: 'Responsive week view'
+          }
+        },
+        {
           path: 'dark-theme',
           loadChildren: () =>
             import('./demo-modules/dark-theme/module').then(m => m.DemoModule),
